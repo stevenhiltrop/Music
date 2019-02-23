@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="description" content="Steven Hiltrop's portfolio">
+        <meta name="author" content="Steven Hiltrop">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <title>Home</title>
+        <!-- <link type="text/css" rel="stylesheet" href="assets/css/stylesheet.css" /> -->
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1>
+                        <i class="title"></i>
+                        <span class="highlight">1-2-3</span>
+                        Web Design
+                    </h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                            <a href="music.html">Music</a>
+                            <!--
+                            <a href="dogs.html">Dogs</a>
+                            <a href="cook.html">Cooking</a>
+                            <a href="martialarts.html">Martial Arts</a>
+                            <a href="perfume.html">Perfume</a>
+                            <a href="basketball.html">Basketball</a>
+                            <a href="passiveincome.html">Passive income</a>
+                            -->
+                            <svg>
+                                <use xlink:href="assets/icons/Linkedin.svg""></use>
+                            </svg>
+                            <object id="svg_linkedin" data="assets/img/social media/Linkedin.svg" href="https://www.linkedin.com/in/steven-h-1967b9124/" type="image/svg+xml" width="24px" height="24px"></object>
+                            <object id="svg_linkedin" data="assets/img/social media/Github.svg" href="https://github.com/stevenhiltrop" type="image/svg+xml" width="24px" height="24px"></object>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section>
+            <div id="my_sidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#about">About</a>
+                <a href="#introduction">Introduction</a>
+                <a href="#circle_of_5ths">Cirkle of 5<sup>th</sup></a>
+                <a href="#intervals">Intervals</a>
+                <a href="#diatonic">Diatonic chords</a>
+                <a href="#triads">Triads</a>
+                <a href="#seventh">Seventh chords</a>
+                <a href="#progression">Chord progression</a>
+                <a href="scales">Scales</a>
+                <a href="tetrachords">Tetrachords</a>
+                <a href="guide_tones">Guide tones</a>
+                <a href="modes">Modes</a>
+                <a href="#">Contact</a>
+            </div>
+              
+            <!-- Use any element to open the sidenav -->
+            <span onclick="openNav()">open</span>
+            
+            <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+            <div id="about">
+                <h1>About</h1>
+                <p>
+                    Having done academic school in Jazz, Pop and Rock. I've learned many things about music theory that are very hard to grasp at first but through exercise can be relatively simple if you put your mind to it.
+                    This page is an attempt of me breaking it down for those whom are intrested in becoming better musicians through theory.
+                </p>
+            </div>
+            <div id="introduction">
+                <h1>Introduction</h1>
+                <p>
+                    To make life easier we are going to map the syllables to notes.
+                    <table>
+                        <tr>
+                            <th>Syllables</th>
+                            <th>Notes</th>
+                        </tr>
+                        <tr>
+                            <td>Do</td>
+                            <td>C</td>
+                        </tr>
+                        <tr>
+                            <td>Re</td>
+                            <td>D</td>
+                        </tr>
+                        <tr>
+                            <td>Mi</td>
+                            <td>E</td>
+                        </tr>
+                        <tr>
+                            <td>Fa</td>
+                            <td>F</td>
+                        </tr>
+                        <tr>
+                            <td>Sol</td>
+                            <td>G</td>
+                        </tr>
+                        <tr>
+                            <td>La</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td>Si</td>
+                            <td>B</td>
+                        </tr>
+                    </table>
+                </p>
+                <p>
+                    There are 2 half tones in music. B > C and E > F. This is very important to know as when we are calculating our chords through progressions, modes or tones. We might have a sharp or flat. More of this further down.
+                    <b>Sharps</b> are indicated by <b>#</b> and are a half tone <b>above/up</b>.
+                    <b>Flats</b> are indicated by <b>b</b> and are a half tone <b>below/under</b>.
+                </p>
+                <h3>Note</h3>
+                <p>
+                    Commonly musicians joke with other musicians about a B<sub>#</sub> or C<sub>b</sub> being off. This is a teaser to understand at what level they are at. Commonly used with people who just joined a band.
+                    Never reply with <i>yea I can play that</i> in a serious tone.
+                </p>
+            </div>
+            <div id="circle_of_5ths">
+                <h1>Cirkle of 5ths</h1>
+                <img src="assets/img/circle_of_fifths.svg">
+            </div>
+            <div id="intervals">
+                <h1>Intervals</h1>
+                <p>
+                    One of the most important things to know in music composition but weridly enough, not understood by many.
+                    First we determine the root note. This can be for the measure, the whole bar or the whole song.
+                    Let's take C the root. The 2<sup>nd</sup>> interval would be D. The 3<sup>rd</sup> E and the 7<sup>th</sup> B.
+                    Intervals are usually indicated with Roman numbers. The sequence is I, II, III, IV, V, VI, VII respectivly.
+                </p>
+                <h2>Exercices</h2>
+                <p>
+                    What is the 4<sup>th</sup> interval of D?
+                </p>
+                <p>
+                    What is the 3<sup>rd</sup> interval of B?
+                </p>
+                <p>
+                    What is the 6<sup>th</sup> interval of G?
+                </p>
+            </div>
+            <div id="diatonic">
+                <h1>Diatonic chords</h1>
+                <table>
+                    <tr>
+                        <th>Major</th>
+                        <th>Minor</th>
+                        <th>Diminished</th>
+                    </tr>
+                    <tr>
+                        <td>I</td>
+                        <td>II</td>
+                        <td>VII</td>
+                    </tr>
+                    <tr>
+                        <td>IV</td>
+                        <td>III</td>
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td>VI</td>
+                    </tr>
+                </table>
+                <p>
+                    With the minors, we will take the interval and lower it half a tone. </br>
+                    Diminished tones get the <b>°</b> sign to it. I will explain this later. </br>
+                    The diatonic chrods give us a great insight in the scale degrees. If you want to go in depth, read the reference mentionned below.</br>
+                    To simplify we stick with the below structure: </br>
+                </p>
+                <table>
+                    <tr>
+                        <th>Tone</th>
+                        <th>Diatonic chords</th>
+                        <th>Intervals</th>
+                    </tr>
+                    <tr>
+                        <td>Dominant</td>
+                        <td>Major, Tonic</td>
+                        <td>I, IV, V</td>
+                    </tr>
+                    <tr>
+                        <td>Subdominant</td>
+                        <td>Minor, Diminished</td>
+                        <td>II, III, VI, VII</td>
+                    </tr>
+                </table>
+                <h2>Examples</h2>
+                    <table>
+                        <tr>
+                            <th>I</th>
+                            <th>ii</th>
+                            <th>iii</th>
+                            <th>IV</th>
+                            <th>V</th>
+                            <th>vi</th>
+                            <th>vii°</th>
+                        </tr>
+                        <tr>
+                            <td>C</td>
+                            <td>Dm</td>
+                            <td>Em</td>
+                            <td>F</td>
+                            <td>G</td>
+                            <td>Am</td>
+                            <td>B°</td>
+                        </tr>
+                        <tr>
+                            <td>A</td>
+                            <td>Bm</td>
+                            <td>Cm<sub>#</sub></td>
+                            <td>D</td>
+                            <td>E</td>
+                            <td>Fm<sub>#</sub></td>
+                            <td>G<sub>#</sub>°</td>
+                        </tr>
+                    </table>
+                <h2>Exercices</h2>
+                <p>
+                    What are diatonic chords of G?
+                </p>
+                <p>
+                    What are diatonic chords of B?
+                </p>
+                <p>
+                    What are diatonic chords of C<sub>#</sub>?
+                </p>
+                <h2>References</h2>
+                    <a href="https://www.studybass.com/lessons/harmony/intro-to-diatonic-chords/">An introduction to diationic chords</a>
+                    <a href="http://musictheoryblog.blogspot.com/2007/01/scale-degrees.html">Scale degrees</a>
+            </div>
+            <div id="triads">
+                <h1>Triads</h1>
+                <p>
+                    Triads are the most common and easiest way to create music. Often used in the Pop and Rock genre for music composition. </br>
+                    On the guitar this can be translated to accoustic chords or power chords without using your pinky. </br>
+                    The triad exists of the root tone, the 3<sup>rd</sup> and the 5<sup>th</sup> note.
+                </p>
+                <h2>References</h2>
+                    <a href="https://en.wikipedia.org/wiki/Triad_(music)">Wikipedia</a>
+            </div>
+            <div id="seventh">
+                <h1>Seventh chords</h1>
+            </div>
+            <div id="progression">
+                <h1>Chord progressions</h1>
+                <p>
+                    Ever wondered why so many songs sound good? Ever wondered why they all sound the same? Do you have a preferecd music genre? </br>
+                    A chord progression is what music is all about. You take 1 chord you like and make up a random progression. That's it! </br>
+                    To appriciate music is to have a good sense of hearing, recognise the rhytm and chord progressions and the changes during.
+                    Most rich musicians only make songs of 4 chords per song. This makes it simple enough for the common person to appriciate. Cause they can snap their fingers to it and recognise the pattern.
+                </p>
+                <h2>Examples</h2>
+                <h3>Jazz progression</h3>
+                <table>
+                    <tr>
+                        <th>II</th>
+                        <th>V</th>
+                        <th>I</th>
+                    </tr>
+                    <tr>
+                        <td>Dm<sup>7</sup></td>
+                        <td>G<sup>7</sup></td>
+                        <td>C<sup>&#9653;7</sup></td>
+                    </tr>
+                </table>
+                <h2>Exercices</h2>
+                <p>
+                    What is the II-V-I jazz progression for A<sup>&#9653;7</sup>? 
+                </p>
+                <p>
+                    What is the II-V-I jazz progression for F<sup>&#9653;7</sup>? 
+                </p>
+                <p>
+                    What is the II-V-I jazz progression for G<sup>&#9653;7</sup>? 
+                </p>
+                <p>
+                    What is the II-V-I jazz progression for B<sup>&#9653;7</sup>? 
+                </p>
+                <h3>Blues progression</h3>
+                <table>
+                    <tr>
+                        <th>I</th>
+                        <th>IV</th>
+                        <th>V</th>
+                    </tr>
+                    <tr>
+                        <td>D</td>
+                        <td>G</td>
+                        <td>A</td>
+                    </tr>
+                </table>
+                <h2>Exercices</h2>
+                <p>
+                    What is the I-IV-V blues progression for A? 
+                </p>
+                <p>
+                    What is the I-IV-V blues progression for F<sub>#</sub>? 
+                </p>
+                <p>
+                    What is the I-IV-V blues progression for F<sub>b</sub>? 
+                </p>
+                <h2>References</h2>
+                <a href="https://www.youtube.com/results?search_query=4+chord+song">4 chord songs</a>
+                <a href="https://www.musical-u.com/learn/exploring-common-chord-progressions/">Chord progressions</a>
+            </div>
+            <div id="scales">
+                <h1>Scales</h1>
+                <h2>Blues scale (major)</h2>
+                <p>
+                    I - III<sub>b</sub> - IV - V<sub>b</sub> - V - VII<sub>b</sub>
+                </p>
+                <p>
+                    A typical major blues scale exists of 12 measures.
+                </p>
+                <p>
+                    I<sup>7</sup> - I<sup>7</sup> - I<sup>7</sup> - I<sup>7</sup>
+                </p>
+                <p>
+                    IV<sup>7</sup> - IV<sup>7</sup> - I<sup>7</sup> -I <sup>7</sup>
+                </p>
+                <p>
+                    V<sup>7</sup> - IV<sup>7</sup> - I<sup>7</sup> - I<sup>7</sup>
+                </p>
+                <h2>Examples</h2>
+                <table>
+                    <tr>
+                        <th>I</th>
+                        <th>III<sub>b</sub></th>
+                        <th>IV</th>
+                        <th>V<sub>b</sub></th>
+                        <th>V</th>
+                        <th>VII<sub>b</sub></th>
+                    </tr>
+                    <tr>
+                        <td>B<sub>b</sub></td>
+                        <td>D<sub>b</sub></td>
+                        <td>E<sub>b</sub></td>
+                        <td>E</td>
+                        <td>F</td>
+                        <td>A<sub>b</sub></td>
+                    </tr>
+                </table>
+                <h3>Note</h3>
+                <p>
+                    For a major blues scale you can replace the last 2 notes of the last measure with V<sup>7</sup> as this another dominant tone. </br>
+                    Measure 3 would look like this: V<sup>7</sup> - IV<sup>7</sup> - V<sup>7</sup> - V<sup>7</sup>
+                </p>
+                <p>
+                    Scales are what makes a <i>lick</i>. These are continiously stolen from artists and adopted in solos. </br>
+                    This is perfectly fine to do. If you plan to make money out of music, then make sure you do not have 8 or more notes that are used in another song for legal reasons.
+                </p>
+
+                <h2>Blues scale (minor)</h2>
+                <p>
+                    I - III<sub>b</sub> - IV - V<sub>b</sub> - V - VII<sub>b</sub>
+                </p>
+                <p>
+                    A typical major blues scale exists of 12 measures.
+                </p>
+                <p>
+                    I<sup>7</sup> - I<sup>7</sup> - I<sup>7</sup> - I<sup>7</sup>
+                </p>
+                <p>
+                    IV<sup>7</sup> - IV<sup>7</sup> - I<sup>7</sup> -I <sup>7</sup>
+                </p>
+                <p>
+                    V<sup>7</sup> - IV<sup>7</sup> - I<sup>7</sup> - I<sup>7</sup>
+                </p>
+                <h2>Examples</h2>
+                <table>
+                    <tr>
+                        <th>I</th>
+                        <th>III<sub>b</sub></th>
+                        <th>IV</th>
+                        <th>V<sub>b</sub></th>
+                        <th>V</th>
+                        <th>VII<sub>b</sub></th>
+                    </tr>
+                    <tr>
+                        <td>B<sub>b</sub></td>
+                        <td>D<sub>b</sub></td>
+                        <td>E<sub>b</sub></td>
+                        <td>E</td>
+                        <td>F</td>
+                        <td>A<sub>b</sub></td>
+                    </tr>
+                </table>
+                <h3>Note</h3>
+                <p>
+                    For a major blues scale you can replace the last 2 notes of the last measure with V<sup>7</sup> as this another dominant tone. </br>
+                    Measure 3 would look like this: V<sup>7</sup> - IV<sup>7</sup> - V<sup>7</sup> - V<sup>7</sup>
+                </p>
+                <p>
+                    Scales are what makes a <i>lick</i>. These are continiously stolen from artists and adopted in solos. </br>
+                    This is perfectly fine to do. If you plan to make money out of music, then make sure you do not have 8 or more notes that are used in another song for legal reasons.
+                </p>
+            </div>
+            <div id="tetrachords">
+                <h1>Tetrachords</h1>
+                <p>
+                    The idea behind tetrachords is fairly straight forward:
+                    <ul>
+                        <li>Add 1 full note</li>
+                        <li>Add 1 full note</li>
+                        <li>Add 1 <b>half</b> note</li>
+                        <li>Repeat once more</li>
+                    </ul>
+                    Each tetra chords consists of 2 lines containing 4 notes. This becomes clear with the example below. </br>
+                    Keep in mind that B-C and E-F are half tones, automaticly adding a sharp or flat should a step be a full note on these.
+                </p>
+                <h2>Examples</h2>
+                <p>
+                    Let's take a look at the tetrachords for G:
+                </p>
+                <p>
+                    G - A - B - C
+                </p>
+                <p>
+                    C - D - E<sub>#</sub> - F
+                </p>
+                <h2<>Exercices</h2>
+                <p>
+                    What are the tetrachords for C?
+                </p>
+                <p>
+                    What are the tetrachords for D?
+                </p>
+                <p>
+                    What are the tetrachords for B<sub>b</sub>?
+                </p>
+                <h3>Note</h3>
+                <p>
+                    Tetrachords are an alternative way to <u>calculate major scales</u> for triads seventh chords, ...
+                </p>
+            </div>
+            <div id="guide_tones">
+                <h1>Guide tones</h1>
+            </div>
+            <div id="modes">
+                <h1>Modes</h1>
+            </div>
+        </section>
+        <footer>
+            <p>Copyright &copy; 2018 - 2019 Steven Hiltrop</p>
+        </footer>
+    </body>
+</html>
